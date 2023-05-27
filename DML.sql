@@ -342,7 +342,7 @@ WHERE EMAIL LIKE '%gmail%' UNION
     FROM CUSTOMERS
     WHERE LAST_NAME LIKE '%o%';
 
---finding the customer who have no orders
+--finding the customer who have orders
 SELECT CUSTOMER_ID
 FROM CUSTOMERS INTERSECT
     SELECT CUSTOMER_ID
